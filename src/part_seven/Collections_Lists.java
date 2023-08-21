@@ -14,10 +14,7 @@ public class Collections_Lists {
 		String[] namesArray = {"Ali", "Arslan", "Mahmut", "Okan", "Orkun", "Burak", "Cengiz", "Kemal", "Yiğit", "Selçuk"};
 		Collection<String> ListOfNames = Arrays.asList(namesArray);
 		myList.addAll(ListOfNames);
-		System.out.println("String Lists and sorting:");
-		System.out.println("Strings in the list before sorting: ");
-		System.out.println(myList + "\n");
-		System.out.println("Strings in the list after sorting: ");
+		System.out.println("String Lists and sorting: \nStrings in the list before sorting: \n" + myList + "\nStrings in the list after sorting: ");
 		Collections.sort(myList);
 		System.out.println(myList + "\n\n");
 	}
@@ -28,9 +25,7 @@ public class Collections_Lists {
 		numbers.add(34);
 		numbers.add(6754);
 		numbers.add(504);
-		System.out.println("integer lists and sorting");
-		System.out.println(numbers);
-		System.out.println("position of 6754 before sorting: " + (numbers.indexOf(6754)+1) + "\n");
+		System.out.println("integer lists and sorting \n" + numbers + "\nposition of 6754 before sorting: " +  (numbers.indexOf(6754)+1) + "\n");
 		Collections.sort(numbers);
 		System.out.println(numbers);
 		System.out.println("position of 6754 after sorting: " + (numbers.indexOf(6754)+1) + "\n");

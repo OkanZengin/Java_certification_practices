@@ -7,8 +7,6 @@ public class Vehicles implements Comparable<Vehicles>{
 	String model;
 	int price;
 	boolean is4wheel;
-
-	
 	
 	public Vehicles(String model, String brand, int price, boolean is4wheel) {
 		super();
@@ -81,6 +79,4 @@ public class Vehicles implements Comparable<Vehicles>{
 		return 0;
 	}
 	
-	
-
 }
