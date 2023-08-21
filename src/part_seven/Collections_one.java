@@ -1,6 +1,5 @@
 package part_seven;
 
-
 public class Collections_one {
 
 	public static void main(String[] args) {
