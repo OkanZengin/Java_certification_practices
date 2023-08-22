@@ -42,18 +42,17 @@ public class Reading_From_Files {
 
 		}
 
-		user_inputs_to_add_file.close(); // Close the scanner for user inputs
+		user_inputs_to_add_file.close(); 
 
-        // Reading and printing accumulated lines side by side
         try {
             Scanner input2 = new Scanner(test_file);
-            StringBuilder combinedLines = new StringBuilder(); // To accumulate lines side by side
+            StringBuilder combinedLines = new StringBuilder(); 
 
             while (input2.hasNextLine()) {
                 String line = input2.nextLine();
-                combinedLines.append(line).append(" "); // Add a space between lines
+                combinedLines.append(line).append(" "); 
             }
-            input2.close(); // Close the scanner for file reading
+            input2.close(); 
 
             System.out.println("Combined lines:");
             System.out.println(combinedLines.toString());
