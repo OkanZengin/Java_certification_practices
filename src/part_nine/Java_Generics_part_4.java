@@ -32,11 +32,11 @@ public class Java_Generics_part_4 {
 		students_2.add(new Student("Ceylin",25,"Student"));		
 		teachers_2.add(new Teacher("Demir",46,"Teacher"));
 
-		ArrayList<?> people_3 = new ArrayList<>();
+//		ArrayList<?> people_3 = new ArrayList<>();
 		ArrayList<Student> students_3 = new ArrayList<>();
 		ArrayList<Teacher> teachers_3 = new ArrayList<>();
-		people_3 = students_3;
-		people_3 = teachers_3;
+//		people_3 = students_3;
+//		people_3 = teachers_3;
 
 //		people_3.add(new Person());		==> Won't work.
 		students_3.add(new Student("Deniz",20,"Student"));		
