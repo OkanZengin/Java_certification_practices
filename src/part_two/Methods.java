@@ -9,6 +9,7 @@ public class Methods {
 		MyMethods.DeveloperMethod(1993);
 		MyMethods.UserInputPrinter();
 		MyMethods.DeveloperCalculator();
+
 	}
 		
 }
